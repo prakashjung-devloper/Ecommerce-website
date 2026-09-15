@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-export default function TermPage() {
+export default function TermsPage() {
   const [activeSection, setActiveSection] = useState("introduction");
 
   const sections = {
@@ -272,8 +272,8 @@ export default function TermPage() {
         </div>
 
         <div className="terms-help-brand text-center">
-          <p>A Brand by KC</p>
-          <strong>HimalayanMart</strong>
+          <p>A Brand by Prakash Jung KC</p>
+          <strong> KCMart</strong>
         </div>
 
       </div>
