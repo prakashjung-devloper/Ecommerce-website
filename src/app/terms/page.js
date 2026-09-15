@@ -11,12 +11,12 @@ export default function TermsPage() {
       content: (
         <>
           <p>
-            Welcome to HimalayanMart. These Terms & Conditions explain the
+            Welcome to KCMart. These Terms & Conditions explain the
             rules and guidelines for using our online shopping platform.
           </p>
 
           <p>
-            By using HimalayanMart, you agree to follow these terms. If you
+            By using KCMart, you agree to follow these terms. If you
             do not agree with any part of these terms, please do not use
             the website.
           </p>
@@ -25,11 +25,11 @@ export default function TermsPage() {
     },
 
     using: {
-      title: "Using HimalayanMart",
+      title: "Using KCMart",
       content: (
         <>
           <p>
-            HimalayanMart is designed to provide a simple and convenient
+            KCMart is designed to provide a simple and convenient
             online shopping experience.
           </p>
 
@@ -115,7 +115,7 @@ export default function TermsPage() {
         <>
           <p>
             Your privacy is important to us. Information provided through
-            HimalayanMart will be handled according to our Privacy Policy.
+            KCMart will be handled according to our Privacy Policy.
           </p>
 
           <p>
@@ -131,7 +131,7 @@ export default function TermsPage() {
       content: (
         <>
           <p>
-            HimalayanMart may update these Terms & Conditions when
+            KCMart may update these Terms & Conditions when
             necessary.
           </p>
 
@@ -152,7 +152,7 @@ export default function TermsPage() {
             please contact us.
           </p>
 
-          <a href="mailto:jungprakash426@gmail.com">
+          <a href="jungprakash426@gmail.com">
             jungprakash426@gmail.com
           </a>
         </>
@@ -167,12 +167,12 @@ export default function TermsPage() {
 
         {/* Header */}
         <div className="terms-help-header">
-          <p className="terms-label">HIMALAYANMART HELP</p>
+          <p className="terms-label">KCMART HELP</p>
 
           <h1>Terms & Conditions</h1>
 
           <p>
-            Learn about the rules and guidelines for using HimalayanMart.
+            Learn about the rules and guidelines for using KCMart.
           </p>
 
           <small>Last updated: September 15, 2026</small>
@@ -197,7 +197,8 @@ export default function TermsPage() {
                 className={activeSection === "using" ? "active" : ""}
                 onClick={() => setActiveSection("using")}
               >
-                Using HimalayanMart
+                Using KC
+  Mart
               </button>
 
               <h6 className="mt-4">SHOPPING</h6>

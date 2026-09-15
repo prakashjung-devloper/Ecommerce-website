@@ -99,7 +99,7 @@ useEffect(() => {
         
        <div className="hero-banner p-4 p-md-5 mb-5 shadow-sm mt-3">
   <h1 className="display-6 fw-bold text-dark">
-    Welcome to HimalayanMart
+    Welcome to KCMart
   </h1>
 
   <p className="lead text-muted mb-0">
