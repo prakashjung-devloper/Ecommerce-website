@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar({
   searchQuery,
@@ -99,22 +100,20 @@ export default function Navbar({
 
 
             {/* CART */}
-            <button
-              className="btn rounded-pill px-4 py-2 d-flex align-items-center gap-2 fw-bold cart-btn"
-              data-bs-toggle="modal"
-              data-bs-target="#cartModal"
-              style={{
-                border: "1.5px solid #8FD19E",
-                color: "#8FD19E",
-                background: "transparent",
-              }}
-            >
-              <i className="bi bi-cart3 fs-5"></i>
-
-              <span className="badge bg-danger rounded-pill px-2 py-1 cart-badge">
-                {totalItems}
-              </span>
-            </button>
+           <Link
+  href="/cart"
+  className="btn rounded-pill px-4 py-2 d-flex align-items-center gap-2 fw-bold cart-btn"
+  style={{
+    border: "1.5px solid #8FD19E",
+    color: "#8FD19E",
+    background: "transparent",
+  }}
+>
+  <i className="bi bi-cart3 fs-5"></i>
+  <span className="badge bg-danger rounded-pill px-2 py-1 cart-badge">
+    {totalItems}
+  </span>
+</Link>
 
           </div>
 
