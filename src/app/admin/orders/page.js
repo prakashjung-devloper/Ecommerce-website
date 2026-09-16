@@ -64,8 +64,8 @@ export default function OrdersPage() {
                   <td>{order.email}</td>
                   <td>{order.phone}</td>
                   <td>{order.address}</td>
-                  <td>{order.payment_method}</td>
-                  <td>रु. {Number(order.total).toFixed(0)}</td>
+                  <td className="payment-badge">{order.payment_method}</td>
+                  <td className="price-text">रु. {Number(order.total).toFixed(0)}</td>
                   <td>
                     {new Date(order.created_at).toLocaleString()}
                   </td>
