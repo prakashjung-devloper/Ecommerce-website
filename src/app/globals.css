@@ -900,3 +900,94 @@ main {
     radial-gradient(circle at top, rgba(25, 135, 84, 0.18), transparent 35%),
     #0A0C1A;
 }
+
+/* =========================
+   Admin Orders Page
+========================= */
+
+.orders-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top,
+    rgba(13, 110, 253, 0.15),
+    transparent 35%),
+    #0A0C1A;
+  color: white;
+  padding-top: 120px;
+}
+
+.orders-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.orders-card {
+  background: rgba(20, 24, 40, 0.95);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+
+.orders-table {
+  color: white;
+  margin-bottom: 0;
+}
+
+.orders-table thead {
+  background: rgba(13,110,253,0.15);
+}
+
+.orders-table th {
+  color: #4da3ff;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 16px;
+  font-weight: 600;
+}
+
+.orders-table td {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding: 16px;
+  vertical-align: middle;
+}
+
+.orders-table tbody tr {
+  transition: 0.3s;
+}
+
+.orders-table tbody tr:hover {
+  background: rgba(255,255,255,0.04);
+}
+
+.price-text {
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.payment-badge {
+  background: rgba(34,197,94,0.15);
+  color: #22c55e;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .orders-title {
+    font-size: 1.5rem;
+  }
+
+  .orders-card {
+    padding: 15px;
+  }
+
+  .orders-table th,
+  .orders-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
